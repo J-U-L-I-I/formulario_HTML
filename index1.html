@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Ale</title>
+</head>
+<body>
+    <fieldset>
+        <h1><b>Formulario de Registros - Mi Web</b></h1>
+        <form action="" method="get"  style="font-size: 24px;">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" size="30" maxlength="50"><br><br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" size="30" maxlength="50"><br><br>
+            <label>Sexo:</label>
+            <input type="radio" id="hombre" name="genero" value="hombre" checked="checked">
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="genero" value="mujer">
+            <label for="mujer">Mujer</label><br><br>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" size="30" maxlength="50" required ><br><br>
+            <label for="población">Población:</label>
+            <select id="población" name="población" required>
+                <option value="">Seleccionar</option>
+                <option value="Alicante">Alicante</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Sevilla">Sevilla</option>
+                <option value="Valencia">Valencia</option>
+            </select><br><br>
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" name="descripcion" rows="6" cols="60">
+            </textarea><br><br>
+            <input type="checkbox" id="novedades" name="novedades" checked="checked">
+            <label for="novedades">Deseo recibir información sobre novedades y ofertas.</label><br><br>
+            <input type="checkbox" id="proteccion-datos" name="proteccion-datos" required>
+            <label for="proteccion-datos">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos.</label><br><br>
+            <input type="submit" value="Enviar el formulario"><br>
+        </form>
+    </fieldset>
+</body>
+</html>
