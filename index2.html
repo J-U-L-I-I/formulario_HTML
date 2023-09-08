@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1><b>Formulario de registro de Juli</b></h1>
+    <form>
+        <form action="" method="get" enctype="text/plain">
+
+            <p><label>Nombre: <input type="text" name="nombre" size="20" maxlength="50"></label></p>
+            <P><label>Apellidos:<input type="text" name="apellido" size="20" maxlength="50"></label></P>
+            
+            <p><label>Sexo:
+                <input type="radio" name="hombre">hombre
+                <input type="radio" name="mujer">mujer</label></p>
+            
+            <P><label>Correo:<input type="text" name="correo" size="40" maxlength="50"></label></P>
+    
+            <p><label>Poblacion:
+                <select name="poblacion" size="1">
+                <option value="Alicante">Alicante</option>
+                <option value="madrid">Argentina</option>
+                <option value="sevilla">Mexico</option>
+                <option value="valencia">España</option>
+            </select></label></p>
+    
+            <p><label>Descripcion:
+            <textarea name="descripcion" cols="60" rows="5"></textarea></label></p>
+             
+            <p><label><input type="checkbox" name="novedades_ofertas" value="si" checked="checkbox"> 
+            Deseo recibir informaci&oacute;n sobre novedades y ofertas</label></p>
+            <p><label><input type="checkbox" name="condiciones" value="si">
+            Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protecc&iacute;on de datos</label></p>
+    
+            <p><input type="submit" name="envio" value="Enviar"></p>
+    </form>
+</body>
+</html>
